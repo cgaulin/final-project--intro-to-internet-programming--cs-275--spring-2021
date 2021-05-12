@@ -3,5 +3,6 @@ window.onload = () => {
     input = parseInt(input, 10);
 
     function oddDiamond(val){
+        let i = 0;
     }
 };
