@@ -5,6 +5,7 @@
      let htmlClientWidth = document.querySelector(`html`).clientWidth;
      let borderWidth = input * 20;
      let number = 0;
+     let speed = 2;
     if(input % 2 === 1){
         oddDiamond(input);
     }
