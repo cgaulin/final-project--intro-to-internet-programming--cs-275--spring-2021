@@ -4,5 +4,6 @@ window.onload = () => {
 
     function oddDiamond(val){
         let i = 0;
+        let looper = 0;
     }
 };
