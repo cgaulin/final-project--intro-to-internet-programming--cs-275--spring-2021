@@ -1,4 +1,5 @@
 #diamond-container {
   position: absolute;
   font-family: monospace;
+  top: 0;
 }
