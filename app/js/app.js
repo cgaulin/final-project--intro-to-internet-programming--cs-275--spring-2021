@@ -18,6 +18,10 @@ window.onload = () => {
     }
 
     function evenDiamond(val){
+
+        let i = 0;
+        let looper = 0;
+        let shape = '';
     }
 
     }
