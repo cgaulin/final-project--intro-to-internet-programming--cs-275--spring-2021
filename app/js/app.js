@@ -28,6 +28,8 @@ window.onload = () => {
           if(looper % 2 === 0){
               continue;
           }
+          shape += Array(val - looper).join(' ') + Array(looper + 1).join('* ') + '*\n';
+        }
     }
 
     }
