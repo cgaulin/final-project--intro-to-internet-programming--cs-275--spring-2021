@@ -12,5 +12,6 @@ window.onload = () => {
           if(looper % 2 === 1){
               continue;
           }
+          shape += Array(val - looper).join(' ') + Array(looper + 1).join('* ') + '*\n';
     }
 };
