@@ -2,6 +2,9 @@ window.onload = () => {
     let input = window.prompt(`Enter a number`);
     input = parseInt(input, 10);
 
+    if(input % 2 === 1){
+        oddDiamond(input);
+    }
     function oddDiamond(val){
         let i = 0;
         let looper = 0;
