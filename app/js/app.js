@@ -34,5 +34,6 @@ window.onload = () => {
     }
 
     function setBorder(){
+        let diamond = document.getElementById(`diamond-container`);
     }
 };
