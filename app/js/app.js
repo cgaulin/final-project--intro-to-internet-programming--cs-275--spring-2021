@@ -4,6 +4,7 @@
      let diamond = document.getElementById(`diamond-container`);
      let htmlClientWidth = document.querySelector(`html`).clientWidth;
      let borderWidth = input * 20;
+     let number = 0;
     if(input % 2 === 1){
         oddDiamond(input);
     }
