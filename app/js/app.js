@@ -5,6 +5,10 @@ window.onload = () => {
     if(input % 2 === 1){
         oddDiamond(input);
     }
+    else{
+        evenDiamond(input);
+    }
+
     function oddDiamond(val){
         let i = 0;
         let looper = 0;
