@@ -30,6 +30,7 @@ window.onload = () => {
           }
           shape += Array(val - looper).join(' ') + Array(looper + 1).join('* ') + '*\n';
         }
+        document.write('<pre>' + shape + '</pre>');
     }
 
     }
