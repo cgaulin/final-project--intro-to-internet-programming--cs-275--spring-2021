@@ -9,5 +9,8 @@ window.onload = () => {
 
         for(i = 0; i < val * 2 - 1; i++) {
           looper = i < val ? i : val * 2 - i - 2;
+          if(looper % 2 === 1){
+              continue;
+          }
     }
 };
