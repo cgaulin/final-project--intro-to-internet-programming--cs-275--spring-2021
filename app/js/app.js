@@ -1,6 +1,7 @@
   window.onload = () => {
      let input = window.prompt(`Enter a number`);
      input = parseInt(input, 10);
+     let diamond = document.getElementById(`diamond-container`);
     if(input % 2 === 1){
         oddDiamond(input);
     }
