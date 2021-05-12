@@ -33,5 +33,6 @@ window.onload = () => {
         document.write('<pre>' + shape + '</pre>');
     }
 
+    function setBorder(){
     }
 };
