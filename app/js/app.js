@@ -61,8 +61,8 @@
     }, (ONE_SECOND / 1000) );
 
     function setBorder(){
-        diamond.style.width = input + `px`;
-        diamond.style.height = input + `px`;
+        diamond.style.width = (input * 20) + `px`;
+        diamond.style.height = (input * 20) + `px`;
         diamond.style.border = `1px solid black`;
     }
 };
