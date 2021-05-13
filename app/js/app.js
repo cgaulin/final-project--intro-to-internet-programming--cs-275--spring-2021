@@ -25,6 +25,7 @@
           }
           shape += Array(val - looper).join(' ') + Array(looper + 1).join('* ') + '*\n';
         }
+        diamond.textContent = shape;
         // document.write('<pre>' + shape + '</pre>');
     }
 
