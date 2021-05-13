@@ -46,6 +46,20 @@
         // document.write('<pre>' + shape + '</pre>');
     }
 
+    setInterval( () => {
+        number += speed;
+        diamond.style.left = number + `px`;
+
+        if(diamond.style.left === window.innerWidth - borderWidth + `px`){
+            speed = -1;
+        }
+        else if(diamond.style.left === `0px`){
+            speed = 1;
+        }
+
+
+    }, (ONE_SECOND / 1000) );
+
     function setBorder(){
         let diamond = document.getElementById(`diamond-container`);
         diamond.style.width = input + `px`;
