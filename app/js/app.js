@@ -2,7 +2,6 @@
      let input = window.prompt(`Enter a number`);
      input = parseInt(input, 10);
      let diamond = document.getElementById(`diamond-container`);
-     let htmlClientWidth = document.querySelector(`html`).clientWidth;
      let borderWidth = input * 20;
      let number = 0;
      let speed = 2;
