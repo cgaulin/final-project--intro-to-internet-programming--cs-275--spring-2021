@@ -1,3 +1,5 @@
+  //Currently, the program only shows/moves the sum of the diamond(total # of astrix), was unsure on how to fix the diamond shape
+  //To see the static diamond shape, comment and uncomment lines 31 and 32 as well as 48 and 49
   window.onload = () => {
      let input = window.prompt(`Enter a number`);
      input = parseInt(input, 10);
