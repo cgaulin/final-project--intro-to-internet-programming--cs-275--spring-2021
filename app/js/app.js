@@ -65,4 +65,4 @@
         diamond.style.height = (input * 20) + `px`;
         diamond.style.border = `1px solid black`;
     }
-};
+  };
