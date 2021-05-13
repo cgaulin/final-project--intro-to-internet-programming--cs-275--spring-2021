@@ -6,6 +6,7 @@
      let number = 0;
      let speed = 1;
      const ONE_SECOND = 1000;
+     setBorder();
     if(input % 2 === 1){
         oddDiamond(input);
     }
