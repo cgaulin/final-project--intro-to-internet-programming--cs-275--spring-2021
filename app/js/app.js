@@ -42,7 +42,7 @@
           }
           shape += Array(val - looper).join(' ') + Array(looper + 1).join('* ') + '*\n';
         }
-        document.write('<pre>' + shape + '</pre>');
+        // document.write('<pre>' + shape + '</pre>');
     }
 
     function setBorder(){
