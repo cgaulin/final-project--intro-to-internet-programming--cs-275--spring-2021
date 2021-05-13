@@ -61,7 +61,6 @@
     }, (ONE_SECOND / 1000) );
 
     function setBorder(){
-        let diamond = document.getElementById(`diamond-container`);
         diamond.style.width = input + `px`;
         diamond.style.height = input + `px`;
         diamond.style.border = `1px solid black`;
